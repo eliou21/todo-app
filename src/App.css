@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: linear-gradient(to right bottom, #d9a7c7, #fc7592);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-wrapper {
+  background-color: #92a8d0;
+  min-width: 600px;
+  min-height: 600px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  box-shadow: 0 0 15px white;
+}
+
+.header h1{
+  color: #fff;
+  text-align: center;
+  margin: 20px 0;
+  margin-bottom: 40px;
+}
+
+.task-input {
+  outline: none;
+  width: 414px;
+  padding: 15px;
+  margin-right: 25px;
+  font-size: 20px;
+  color: gray;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.button-add {
+  width: 70px;
+  padding: 15px 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 0;
+  background-color: #876aa2;
+  color: white;
+  cursor: pointer;
+}
+
+.list-item {
+  display: flex;
+  margin: 20px 0;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  max-height: 30px;
+}
+
+.button-complete,
+.button-delete,
+.button-edit {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 28px;
+  border-radius: 50%;
+}
+
+.button-complete{
+  color: #2f8b5a;
+  margin-right: 10px;
+  margin-left: 160px;
+}
+
+.button-edit{
+  color: #3578bf;
+  margin-right: 10px;
+}
+
+.button-delete{
+  color: #962b42;
+}
+
+.complete{
+  text-decoration-style: solid;
+  text-decoration-line: line-through;
+  text-decoration-color: #ff6c6c;
+  opacity: 0.6;
+}
+
+.list{
+  width: 220px;
+  background-color: #92a8d0;
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-right: 15px;
+}
+
+input:focus,
+button:focus{
+  outline: none;
+}
+
+button:disabled {
+  color: gray;
+  cursor: not-allowed;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.no-avail{
+  text-align: center;
+  margin-top: 15px;
+  color: white;
+}
+
+.edit-input {
+  width: 380px;
+  background-color: white;
+  border: 1px solid white;
+  color: gray;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+
+.save-btn {
+  width: 90px;
+  padding: 8px 15px;
+  margin-left: 10px;
+  font-size: 14px;
+  border-radius: 10px;
+  border: none;
+  background-color: #876aa2;
+  color: white;
+  cursor: pointer;
+}
